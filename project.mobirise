@@ -1,0 +1,826 @@
+{
+  "settings": {
+    "name": "ACN Main Template",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#2980b9",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Arvo",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 36,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Clarence Cook - ACN",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "1.05rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.137rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#c29d0b"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e3b90d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#f1c40f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1",
+          "_params": {
+            "bgColor": "#f1c40f",
+            "fontSize": "1.05",
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo-new-507x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://tccook.shopacnrep.com/index.aspx",
+              "title": "",
+              "linkInNewWindow": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#image2-3\">WHY ACN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#call5-p\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#countdown2-t\">GET STARTED</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://tccook.shopacnrep.com/index.aspx\">Find Out How!</a></li>"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "84px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customCSS": "",
+          "_anchor": "header3-0",
+          "_params": {
+            "buttonAlign": "center",
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/logomainacn-2000x903.jpg",
+            "bgColor": "#16a085",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000000",
+            "showText": true,
+            "showTitle": true,
+            "showButtons": true
+          },
+          "text": "<p><a href=\"https://tccook.shopacnrep.com/index.aspxx.aspx\" target=\"_blank\"><b>CLARENCE COOK</b></a></p>",
+          "title": "Get your Blueprint<br>for making money&nbsp;<br>&amp; paying less!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">See more Info</a> ",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "color": "#ecf0f1",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "B": {
+              "font-size": "46px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-s",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#326c92",
+            "showMeta": false
+          },
+          "title": "<b>Experience these benefits in your home or office!</b>",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_styles": {
+            "DIV": {
+              "color": "#000000",
+              "font-size": "23px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "image2-3",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 4,
+            "bgColor": "#306b93",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://youtu.be/_L1J2YZZqxs",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            }
+          },
+          "text": "<a href=\"https://tccook.shopacnrep.com/index.aspx\" class=\"text-black\">YOU CAN GET YOUR UTILITIES FOR FREE SHOWING PEOPLE WHERE &amp; HOW TO GET THEIRS FOR FREE, CLICK HERE!</a>"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call5",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showText1": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#bdc3c7",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": "0.5"
+          },
+          "title": "Start from home and <br>Share this &amp; get the services below FREE",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quaerat omnis amet accusantium accusamus quidems?",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://tccook.shopacnrep.com/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CALL ME OR</a>",
+          "text1": "or <a href=\"205-612-8877\">CALL CLARENCE!</a>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero call3\" style=\"background-image: url(@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg); padding-top: 160px; padding-bottom: 0px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(236, 240, 241);\"></div>\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-left call-inner\">\n\n                    <div class=\"col-xs-12 text-xs-center\">\n\n                        <h1 class=\"mbr-section-title display-4 mbr-editable-content\" style=\"font-size: 36px;\" code-editable-id=\"17\">Start from home, or your mobile device from anywhere.&nbsp;<br>Share this &amp; get the services below FREE</h1>\n                                               \n\n                        <div class=\"mbr-section-btn\"><a class=\"btn btn-primary btn-lg mbr-editable-button\" href=\"https://tccook.shopacnrep.com/\" target=\"_blank\" code-editable-id=\"18\">cLICK FOR DETAILS</a></div>\n\n                        <p class=\"mbr-section-text lead mbr-editable-content\" code-editable-id=\"19\">or<strong> <a href=\"tel:205-612-8877\">CALL CLARENCE!</a></strong></p>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(undefined);\n@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\n.mbr-section-title {\n\tfont-family: 'Oxygen', sans-serif;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "call5-p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-text": {
+              "color": "#fff"
+            },
+            ".mbr-section-text": {
+              "font-size": "19px"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/acn-residential-services-2000x572.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": false,
+                "overlayOpacity": "0.3",
+                "overlayColor": "#000000",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/acn-business-services-2000x595.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "overlay": false,
+                "overlayOpacity": "0.3",
+                "overlayColor": "#000000",
+                "contentAlign": "right",
+                "showTitle": false,
+                "title": "",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#2b86c3",
+            "showBullets": true
+          },
+          "_anchor": "slider3-6",
+          "articleLayout": false,
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrow-left.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrow-right.png\">"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_styles": {
+            "DIV": {
+              "text-align": "center",
+              "color": "#ecf0f1",
+              "font-size": "30px",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            }
+          },
+          "_anchor": "content5-c",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#333333",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "",
+          "caption": "<p><b>YOU can think of at least 5 people&nbsp;</b><b style=\"font-size: 30px; line-height: 1.85em;\">who are using these services, </b></p><p><b style=\"font-size: 30px; line-height: 1.85em;\">use the buttons below to share this with all your social contacts!</b></p>"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- AddToAny BEGIN -->\n<center>\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\">\n<a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"></a>\n<a class=\"a2a_button_facebook\"></a>\n<a class=\"a2a_button_twitter\"></a>\n<a class=\"a2a_button_google_plus\"></a>\n<a class=\"a2a_button_pinterest\"></a>\n<a class=\"a2a_button_linkedin\"></a>\n<a class=\"a2a_button_reddit\"></a>\n<a class=\"a2a_button_tumblr\"></a>\n<a class=\"a2a_button_google_gmail\"></a>\n<a class=\"a2a_button_whatsapp\"></a>\n<a class=\"a2a_button_stumbleupon\"></a>\n<a class=\"a2a_button_aim\"></a>\n<a class=\"a2a_button_aol_mail\"></a>\n<a class=\"a2a_button_box_net\"></a>\n<a class=\"a2a_button_delicious\"></a>\n<a class=\"a2a_button_digg\"></a>\n<a class=\"a2a_button_evernote\"></a>\n<a class=\"a2a_button_facebook_messenger\"></a>\n<a class=\"a2a_button_google_bookmarks\"></a>\n<a class=\"a2a_button_kakao\"></a>\n<a class=\"a2a_button_kik\"></a>\n<a class=\"a2a_button_kindle_it\"></a>\n<a class=\"a2a_button_known\"></a>\n<a class=\"a2a_button_line\"></a>\n<a class=\"a2a_button_myspace\"></a>\n<a class=\"a2a_button_pocket\"></a>\n<a class=\"a2a_button_print\"></a>\n<a class=\"a2a_button_printfriendly\"></a>\n<a class=\"a2a_button_skype\"></a>\n<a class=\"a2a_button_sms\"></a>\n<a class=\"a2a_button_stumpedia\"></a>\n<a class=\"a2a_button_telegram\"></a>\n<a class=\"a2a_button_trello\"></a>\n<a class=\"a2a_button_viber\"></a>\n<a class=\"a2a_button_vk\"></a>\n<a class=\"a2a_button_wechat\"></a>\n<a class=\"a2a_button_yahoo_bookmarks\"></a>\n<a class=\"a2a_button_yahoo_mail\"></a>\n<a class=\"a2a_button_yahoo_messenger\"></a>\n<a class=\"a2a_button_youmob\"></a>\n<a class=\"a2a_button_yummly\"></a>\n</div>\n{JS_CODE_0}\n{JS_CODE_1}\n</center>\n<!-- AddToAny END -->",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\nvar a2a_config = a2a_config || {};\na2a_config.linkname = \"HOW TO GET YOUR UTILITIES FOR FREE\";\na2a_config.linkurl = \"https://tccook.shopacnrep.com/index.aspx\";\na2a_config.num_services = 22;\n</script>",
+            "<script async src=\"https://static.addtoany.com/menu/page.js\"></script>"
+          ],
+          "_anchor": "custom-html-e"
+        },
+        {
+          "_inherit": "gallery1",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_styles": {
+            ".mbr-gallery-title": {
+              "text-align": "center",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": "2",
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/menu-home-phone-2000x1333-800x533-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/menu-home-phone-2000x1333-800x533.png",
+                "caption": "Home Phone",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/menu-wireless-service-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/menu-wireless-service-2000x1333.png",
+                "caption": "Cell Phone",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/menu-home-security-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/menu-home-security-2000x1333.png",
+                "caption": "Security System",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/menu-television-2000x1333-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/menu-television-2000x1333.png",
+                "caption": "Cable Service",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/menu-home-energy-2000x1333-800x533-800x533.png",
+                "image": "@PROJECT_PATH@/assets/images/menu-home-energy-2000x1333-800x533.png",
+                "caption": "Gas - Coming Soon!",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=HnPYeBJ9JCc",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+                "caption": "Power - Coming Soon!",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": true,
+            "filter": false,
+            "bgColor": "#ecf0f1",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-j",
+          "articleLayout": false,
+          "allItem": "ALL",
+          "arrowleft": "<img src=\"@PROJECT_PATH@/assets/images/arrowleft.png\">",
+          "arrowright": "<img src=\"@PROJECT_PATH@/assets/images/arrowright.png\">"
+        },
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#9fa3a7"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "text-align": "center",
+              "color": "#3498db",
+              "font-size": "23px"
+            },
+            ".mbr-section-text": {
+              "color": "#2980b9",
+              "font-size": "32px",
+              "text-align": "center"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-z",
+          "_params": {
+            "imageSize": "48",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/acn-utilities-free-pic-600x332.png",
+            "bgColor": "#ecf0f1",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#ecf0f1",
+            "showNumber": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "showImages": true
+          },
+          "number1": "1",
+          "subtitle1": "Business Customer Reward program",
+          "title1": "Get $100 when you sign up for 2 or more lines of ACN DigitalTalk® Express!<br><br>Get up to $500 when you sign up for multiple ACN Business Services!",
+          "caption1": "Find out exactly how this system works",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"tel:2056128638\" data-toolbar=\"-mbrBtnMove\">push to call</a> <a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://tccook.shopacnrep.com/index.aspx\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">lEARN MORE</a>",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/acn-utilities-free-pic-600x332.png",
+              "class": "card-img-top",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://youtu.be/OgYsTxvTzc0",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": false
+            }
+          }
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header11",
+          "_styles": {
+            "P": {
+              "color": "#f1c40f",
+              "font-size": "23px"
+            }
+          },
+          "_anchor": "header11-k",
+          "_params": {
+            "animText1": "Join and Share This!",
+            "animText2": "Get Paid, Spend Less",
+            "animText3": "Get More, Take a look...",
+            "typeSpeed": 60,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "YES! You can <br>get service above <br>for FREE...HOW?<br>",
+          "text": "<b>You owe it to yourself and your family to make it happen!</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "countdown2",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "countdown2-t",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/05.jpg",
+            "bgColor": "#ad9044",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#e74c3c",
+            "showTitle": true,
+            "showText": false,
+            "countdown": "2017/08/02"
+          },
+          "title": "Time remaining for special incentive offer!",
+          "text": "Clck the button below"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            },
+            "H1": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "animated-bg1",
+          "_anchor": "animated-bg1-d",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgText": "Go to my ACN website",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#25a0f3",
+            "bgTextSize": "250",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgColor": "#2980b9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "I have THE SYSTEM<br>AND TOOLS IN PLACE<br>and so can you!",
+          "text": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://tccook.shopacnrep.com/index.aspx\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">see how easy it is to get started!<br></a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "22px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "color": "#000000"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "30px"
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"https://mobirise.com\">download it</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "intro1",
+          "_anchor": "intro1-q",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-7-2000x1333.jpg",
+            "bgColor": "#16a085",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#2980b9",
+            "showText": true,
+            "showTitle": true
+          },
+          "text": "contact me &nbsp;or get a FREE ANALYSIS for your home or Business!",
+          "title": "I will contact you soon<br>to help you get started.<br><br>",
+          "form": {
+            "action": "CCLARENCE441@GMAIL.COM",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "formButton": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT me</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-u",
+          "_params": {
+            "googleMap": {
+              "address": "900 Lorna Rd Hoover, AL\n",
+              "placeId": "EhlMb3JuYSBSZCwgSG9vdmVyLCBBTCwgVVNB",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-text": {
+              "color": "#fff"
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Clarence Cook - Independant ACN Representatiive"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- BEGIN: Powered by Supercounters.com -->\n<center>{JS_CODE_0}{JS_CODE_1}<br><noscript>&amp;amp;amp;amp;amp;amp;amp;lt;a href=\"http://www.supercounters.com/\"&amp;amp;amp;amp;amp;amp;amp;gt;Visitor Tracker&amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;gt;</noscript>\n</center>\n<!-- END: Powered by Supercounters.com -->",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"http://widget.supercounters.com/vt.js\"></script>",
+            "<script type=\"text/javascript\">var sc_visitor_var = sc_visitor_var || [];sc_vt(1419249,\"FFFFFF\",\"cccccc\",\"000000\",10)</script>"
+          ],
+          "_anchor": "custom-html-v"
+        }
+      ]
+    }
+  }
+}
